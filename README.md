@@ -65,24 +65,24 @@ libraries used
 # Data collected
 the final step
 
-###### 1.
+##### 1.
 > <img width="500" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
 > 
 > Using the application "CoolTerm" to read serial port from the controller XBEE, above is the recieved data from the start to the top of the launch
 
-###### 2.
+##### 2.
 
 > <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851207-3bcd9150-6696-4513-bfa5-4a8efddcdef3.png">
 > 
 > a very nice image describing the data
 
-###### 3.
+##### 3.
 
 > <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851648-9aaaafec-0418-4890-9314-30af077158ff.png">
 > 
 > after converting the data to int, we use the data ( pressure and temperature ) to calculate the height of the satellite using this [website](https://www.mide.com/air-pressure-at-altitude-calculator) 
 
-###### 4.
+##### 4.
 
 After all that, we plot the altitude against time
 > <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142852670-4940d6a2-719c-4888-92bb-d1fa72e19bb6.png">
