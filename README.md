@@ -58,6 +58,7 @@ libraries used
 - Adafruit_LSM9DS1
 - Simple zigbee https://github.com/ericburger/simple-zigbee
 
+>worked on by le yang
 
 
 # Data collected
@@ -78,6 +79,8 @@ after converting the data to int, we use the data ( pressure and temperature ) t
 After all that, we plot the altitude against time
 <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142852670-4940d6a2-719c-4888-92bb-d1fa72e19bb6.png">
 > the spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1PusYnTNPe0g9paBU-WdhEOfIK1tb_tdRojfqj9hyueA/edit#gid=0)
+
+>worked on by le yang
 
 
 #Conclusion
