@@ -1,19 +1,23 @@
 # Balloon-Satellite
+
 A team from the **School of Science and Technology, Singapore**.
 
-> <img width="500" alt="team photo" src="https://user-images.githubusercontent.com/50788385/142843316-30dabe48-f33b-4a0c-961d-913e3513a4c3.png">
-
+<img width="500" alt="team photo" src="https://user-images.githubusercontent.com/50788385/142843316-30dabe48-f33b-4a0c-961d-913e3513a4c3.png">
 > *the team (left to right) : le yang, min gyu, jarrett, sean*
+
+
 
 # the satellite outer shell
 
-> <img width="500" alt="satellite outer shell" src="https://user-images.githubusercontent.com/50788385/142844848-e4d5c462-be58-4bbe-ace9-743abd0dbcbe.png">
+<img width="500" alt="satellite outer shell" src="https://user-images.githubusercontent.com/50788385/142844848-e4d5c462-be58-4bbe-ace9-743abd0dbcbe.png">
 
 Parts used:
 - 6 sheets of polycarbonate ( 17.5cm x 17.5cm)
 - Attached to wood bar in the interior corners
 
 > *work done by min gyu, jarrett and sean*
+
+
 
 # electrical components
 
@@ -34,20 +38,57 @@ the additional XBEE is on the ground
 
 >worked on by le yang
 
+
+
 # code
 this is the best part yet. countless tears dropped.
 
-Final code can be found here [please_ignore_the_file_naming.zip](https://github.com/leCloudy/Balloon-Satellite/files/7580282/3_sensors_working_code___HEX.ino.zip)
+Final code can be found here [please_ignore_the_file_naming.zip](https://github.com/leCloudy/Balloon-Satellite/files/7580282/3_sensors_working_code___HEX.ino.zip) and at the bottom of this page
 
-sudo code
+#### sudo code
 1. collect data from the 3 sensors
 2. make the data into at most 2byte integers (only had to do for pressure because the number was bigger than 255^2)
 3. split the data into seperate bytes and convert to HEX (as xbee sends packets with 1 byte arrays, and in HEX)
 4. join them into an packet array
 5. send over from XBEE router to controller
 
-```
+libraries used
+- BMx280I2C
+- SparkFunTMP102
+- Adafruit_LSM9DS1
+- Simple zigbee https://github.com/ericburger/simple-zigbee
 
+
+
+# Data collected
+the final step
+
+<img width="800" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
+> Using the application "CoolTerm" to read serial port from the controller XBEE, above is the recieved data from the start to the top of the launch
+
+
+<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851207-3bcd9150-6696-4513-bfa5-4a8efddcdef3.png">
+> a very nice image describing the data
+
+
+<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851648-9aaaafec-0418-4890-9314-30af077158ff.png">
+
+after converting the data to int, we use the data ( pressure and temperature ) to calculate the height of the satellite using this [website](https://www.mide.com/air-pressure-at-altitude-calculator) 
+
+After all that, we plot the altitude against time
+<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142852670-4940d6a2-719c-4888-92bb-d1fa72e19bb6.png">
+> the spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1PusYnTNPe0g9paBU-WdhEOfIK1tb_tdRojfqj9hyueA/edit#gid=0)
+
+
+#Conclusion
+- very fun would like to try again
+- although very painful but learned a lot of new things that is useful
+- special thanks to teammates, Ms Teo, Mr Hubert, and peopled who helped out
+
+
+here is the code
+
+```
 #include <Arduino.h>
 #include <Wire.h>
 #include <BMx280I2C.h>
