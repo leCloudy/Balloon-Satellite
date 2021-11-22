@@ -65,8 +65,8 @@ libraries used
 # Data collected
 the final step
 
-> <img width="500" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
 > Using the application "CoolTerm" to read serial port from the controller XBEE, above is the recieved data from the start to the top of the launch
+> <img width="500" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
 
 
 > <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851207-3bcd9150-6696-4513-bfa5-4a8efddcdef3.png">
