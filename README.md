@@ -65,26 +65,25 @@ libraries used
 # Data collected
 the final step
 
-<img width="800" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
+> <img width="500" alt="textfile" src="https://user-images.githubusercontent.com/50788385/142850587-2a10b98d-db60-4185-95c8-04f83dab2f01.png">
 > Using the application "CoolTerm" to read serial port from the controller XBEE, above is the recieved data from the start to the top of the launch
 
 
-<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851207-3bcd9150-6696-4513-bfa5-4a8efddcdef3.png">
+> <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851207-3bcd9150-6696-4513-bfa5-4a8efddcdef3.png">
 > a very nice image describing the data
 
 
-<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851648-9aaaafec-0418-4890-9314-30af077158ff.png">
-
-after converting the data to int, we use the data ( pressure and temperature ) to calculate the height of the satellite using this [website](https://www.mide.com/air-pressure-at-altitude-calculator) 
+> <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142851648-9aaaafec-0418-4890-9314-30af077158ff.png">
+> after converting the data to int, we use the data ( pressure and temperature ) to calculate the height of the satellite using this [website](https://www.mide.com/air-pressure-at-altitude-calculator) 
 
 After all that, we plot the altitude against time
-<img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142852670-4940d6a2-719c-4888-92bb-d1fa72e19bb6.png">
+> <img width="500" alt="a" src="https://user-images.githubusercontent.com/50788385/142852670-4940d6a2-719c-4888-92bb-d1fa72e19bb6.png">
 > the spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1PusYnTNPe0g9paBU-WdhEOfIK1tb_tdRojfqj9hyueA/edit#gid=0)
 
->worked on by le yang
+> worked on by le yang
 
 
-#Conclusion
+# Conclusion
 - very fun would like to try again
 - although very painful but learned a lot of new things that is useful
 - special thanks to teammates, Ms Teo, Mr Hubert, and peopled who helped out
