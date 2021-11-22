@@ -44,7 +44,7 @@ the additional XBEE is on the ground
 # code
 this is the best part yet. countless tears dropped.
 
-Final code can be found here [please_ignore_the_file_naming.zip](https://github.com/leCloudy/Balloon-Satellite/files/7580282/3_sensors_working_code___HEX.ino.zip) and at the bottom of this page
+Final code can be found [here](https://github.com/leCloudy/Balloon-Satellite/files/7580282/3_sensors_working_code___HEX.ino.zip) and at the bottom of this page
 
 #### sudo code
 1. collect data from the 3 sensors
