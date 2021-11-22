@@ -3,6 +3,7 @@
 A team from the **School of Science and Technology, Singapore**.
 
 <img width="500" alt="team photo" src="https://user-images.githubusercontent.com/50788385/142843316-30dabe48-f33b-4a0c-961d-913e3513a4c3.png">
+
 > *the team (left to right) : le yang, min gyu, jarrett, sean*
 
 
