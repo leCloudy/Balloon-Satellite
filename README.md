@@ -46,7 +46,7 @@ this is the best part yet. countless tears dropped.
 
 Final code can be found [here](https://github.com/leCloudy/Balloon-Satellite/files/7580282/3_sensors_working_code___HEX.ino.zip) and at the bottom of this page
 
-#### sudo code
+#### pseudo code
 1. collect data from the 3 sensors
 2. make the data into at most 2byte integers (only had to do for pressure because the number was bigger than 255^2)
 3. split the data into seperate bytes and convert to HEX (as xbee sends packets with 1 byte arrays, and in HEX)
