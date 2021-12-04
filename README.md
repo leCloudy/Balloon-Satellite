@@ -22,9 +22,9 @@ Parts used:
 
 # electrical components
 
-> <img width="500" alt="electrical components" src="https://user-images.githubusercontent.com/50788385/144699408-3f414d34-5aeb-4348-bc35-82c8bb5829e2.png">
+> <img width="1000" alt="electrical components" src="https://user-images.githubusercontent.com/50788385/144699408-3f414d34-5aeb-4348-bc35-82c8bb5829e2.png">
 
-> *wiring done by yours truely*
+> *click image for clearer picture*
 
 Components used (top-down left-right):
 - TMP102 (for temperature)
