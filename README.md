@@ -22,7 +22,7 @@ Parts used:
 
 # electrical components
 
-> <img width="500" alt="electrical components" src="https://user-images.githubusercontent.com/50788385/142845949-ebc46968-3fb0-4cc6-8fd2-1662bebf9a7d.png">
+> <img width="500" alt="electrical components" src="https://user-images.githubusercontent.com/50788385/144699408-3f414d34-5aeb-4348-bc35-82c8bb5829e2.png">
 
 > *wiring done by yours truely*
 
@@ -35,7 +35,6 @@ Components used (top-down left-right):
 - Battery
 
 the additional XBEE is on the ground 
-> *apologies for lack of circuit diagrams(kinda lazy), but the image above should suffice*
 
 >worked on by le yang
 
