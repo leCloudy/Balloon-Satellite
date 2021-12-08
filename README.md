@@ -2,8 +2,8 @@
 
 A team from the **School of Science and Technology, Singapore**.
 
-<img width="500" alt="team photo" src="https://user-images.githubusercontent.com/50788385/142843316-30dabe48-f33b-4a0c-961d-913e3513a4c3.png">
-
+> <img width="500" alt="team photo" src="https://user-images.githubusercontent.com/50788385/142843316-30dabe48-f33b-4a0c-961d-913e3513a4c3.png">
+>
 > *the team (left to right) : le yang, min gyu, jarrett, sean*
 
 
@@ -23,7 +23,7 @@ Parts used:
 # electrical components
 
 > <img width="1000" alt="electrical components" src="https://user-images.githubusercontent.com/50788385/144699408-3f414d34-5aeb-4348-bc35-82c8bb5829e2.png">
-
+>
 > *click image for clearer picture*
 
 Components used (top-down left-right):
